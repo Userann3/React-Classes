@@ -1,0 +1,74 @@
+/* Home.css */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 350px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: lightblue;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .img img {
+    max-height: 180px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .detailes {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .detailes h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .detailes h5 {
+    font-family: Arial, sans-serif;
+    color: #ff6200;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .detailes a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: 700;
+  }
+  
+  .detailes a:hover {
+    color: #ff6200;
+  }
+  
+  

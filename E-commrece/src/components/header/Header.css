@@ -1,0 +1,12 @@
+.active{
+    color: blue;
+}
+
+a{
+    color: gray;
+}
+
+.navbar-brand{
+    border-right: 1px solid;
+    padding: 10px;
+}
